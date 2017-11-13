@@ -1,0 +1,13 @@
+TRADUCTOR
+
+
+Primero podríamos decir que es un problema parecido al de "Excursión", buscaremos resolver el problema de una forma similar. Asumimos que Numerical y Enteral son nuestros lenguajes que deseamos traducir y no son negativos.
+
+Entonces tendríamos un arreglo que nos permita buscar directamente en ellos, es decir si el número 5 se traduce a 50, podríamos establecer Traduccion[5] = 71.
+
+Nuestro código para leer en la primera mitad de la entrada podría ser:
+
+for (int i = 0; i <D; i ++) {
+	 <Leer un par de enteros en val_1 y val_2>
+	traducción [val_1] = val_2;
+}
